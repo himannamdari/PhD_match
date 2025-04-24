@@ -1,24 +1,36 @@
 import pandas as pd
+import os
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.linear_model import LogisticRegression
+import joblib
 
-def preprocess_text(text):
-    return text.lower().replace(",", " ")
+MODEL_FILE = "model/match_model.pkl"
 
-def match_candidates(employer, grads):
+def retrain_model():
+    df = pd.read_csv("data/matches.csv")
+    X = df["Grad_Skills"] + " " + df["Job_Skills"]
+    y = df["Match"]
+
     vectorizer = TfidfVectorizer()
-    grads["combined"] = grads["Skills"] + " " + grads["Research Area"]
-    employer_input = preprocess_text(employer["Skills"] + " " + employer["Research Field"])
-    tfidf_matrix = vectorizer.fit_transform(grads["combined"].tolist() + [employer_input])
-    similarity_scores = cosine_similarity(tfidf_matrix[-1], tfidf_matrix[:-1]).flatten()
-    grads["Match Score"] = similarity_scores
-    return grads.sort_values("Match Score", ascending=False).head(5)
+    X_vec = vectorizer.fit_transform(X)
 
-def match_employers(grad, employers):
-    vectorizer = TfidfVectorizer()
-    employers["combined"] = employers["Skills"] + " " + employers["Research Field"]
-    grad_input = preprocess_text(grad["Skills"] + " " + grad["Research Area"])
-    tfidf_matrix = vectorizer.fit_transform(employers["combined"].tolist() + [grad_input])
-    similarity_scores = cosine_similarity(tfidf_matrix[-1], tfidf_matrix[:-1]).flatten()
-    employers["Match Score"] = similarity_scores
-    return employers.sort_values("Match Score", ascending=False).head(5)
+    model = LogisticRegression()
+    model.fit(X_vec, y)
+
+    os.makedirs("model", exist_ok=True)
+    joblib.dump((model, vectorizer), MODEL_FILE)
+
+def predict_matches(grad_skills, employer_df):
+    if not os.path.exists(MODEL_FILE):
+        retrain_model()
+    model, vectorizer = joblib.load(MODEL_FILE)
+
+    results = []
+    for idx, row in employer_df.iterrows():
+        combined_text = grad_skills + " " + row["Skills"]
+        X = vectorizer.transform([combined_text])
+        prob = model.predict_proba(X)[0][1]
+        results.append((row["Company"], row["Job Title"], row["Skills"], prob))
+
+    sorted_matches = sorted(results, key=lambda x: x[3], reverse=True)
+    return pd.DataFrame(sorted_matches[:5], columns=["Company", "Job", "Required Skills", "Match Score"])
