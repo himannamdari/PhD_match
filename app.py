@@ -8,33 +8,52 @@ os.makedirs("data", exist_ok=True)
 GRAD_FILE = "data/graduates.csv"
 EMPLOYER_FILE = "data/employers.csv"
 MATCH_FILE = "data/matches.csv"
+MODEL_FILE = "model/match_model.pkl"
 
-# Create match sample file if missing
+# Initialize match dataset if not exists
 if not os.path.exists(MATCH_FILE):
     sample_data = pd.DataFrame({
         "Grad_Skills": ["machine learning", "quantum physics", "data science"],
-        "Job_Skills": ["deep learning", "theoretical physics", "python, statistics"],
+        "Job_Skills": ["deep learning, python", "theoretical physics", "python, statistics"],
         "Match": [1, 1, 0]
     })
     sample_data.to_csv(MATCH_FILE, index=False)
 
+# App setup
 st.set_page_config(page_title="PhDMatch", layout="centered")
 st.title("🎓 PhDMatch")
 
 user_type = st.radio("I am a...", ["PhD Graduate", "Employer"])
 
-# ----------------------- PhD GRADUATE FORM ------------------------
+skills_list = [
+    "python", "tensorflow", "pytorch", "nlp", "deep learning",
+    "cv", "sql", "bioinformatics", "c++", "data mining"
+]
+
+research_areas = [
+    "Machine Learning", "AI & NLP", "Physics", "Chemistry", "Biology",
+    "Cybersecurity", "Robotics", "Environmental Science", "Mathematics", "Other"
+]
+
+preferred_roles = [
+    "Research Scientist", "Data Scientist", "Machine Learning Engineer",
+    "Postdoc", "Software Developer", "AI Researcher", "Other"
+]
+
+job_titles = [
+    "AI Researcher", "Software Engineer", "R&D Scientist",
+    "Data Analyst", "Postdoctoral Fellow", "Systems Engineer", "Other"
+]
+
+# Graduate form
 if user_type == "PhD Graduate":
     st.subheader("👨‍🎓 Graduate Profile Submission")
 
     name = st.text_input("Full Name")
-    skills = st.text_input("Skills (comma-separated)")
-    research = st.selectbox("Research Area", [
-        "Machine Learning", "AI & NLP", "Physics", "Chemistry", "Biology", "Cybersecurity", "Robotics", "Other"
-    ])
-    role = st.selectbox("Preferred Roles", [
-        "Research Scientist", "Data Scientist", "Machine Learning Engineer", "Postdoc", "Software Developer", "Other"
-    ])
+    skills_selected = st.multiselect("Select Your Skills", skills_list)
+    skills = ", ".join(skills_selected)
+    research = st.selectbox("Research Area", research_areas)
+    role = st.selectbox("Preferred Roles", preferred_roles)
 
     if st.button("📤 Submit Profile"):
         new_row = pd.DataFrame([[name, skills, research, role]],
@@ -45,7 +64,6 @@ if user_type == "PhD Graduate":
             new_row.to_csv(GRAD_FILE, mode='a', header=False, index=False)
         st.success("✅ Profile submitted!")
 
-        # Predict Matches
         if os.path.exists(EMPLOYER_FILE) and os.path.getsize(EMPLOYER_FILE) > 0:
             employers = pd.read_csv(EMPLOYER_FILE)
             matches = predict_matches(skills, employers)
@@ -54,15 +72,14 @@ if user_type == "PhD Graduate":
         else:
             st.warning("⚠️ No employer data available yet.")
 
-# ------------------------- EMPLOYER FORM --------------------------
+# Employer form
 elif user_type == "Employer":
     st.subheader("🏢 Employer Job Posting")
 
     company = st.text_input("Company Name")
-    job = st.selectbox("Job Title", [
-        "AI Researcher", "Software Engineer", "R&D Scientist", "Data Analyst", "Postdoctoral Fellow", "Other"
-    ])
-    desired = st.text_input("Desired Skills (comma-separated)")
+    job = st.selectbox("Job Title", job_titles)
+    desired_selected = st.multiselect("Desired Skills", skills_list)
+    desired = ", ".join(desired_selected)
 
     if st.button("📤 Submit Job"):
         new_row = pd.DataFrame([[company, job, desired]],
@@ -72,4 +89,3 @@ elif user_type == "Employer":
         else:
             new_row.to_csv(EMPLOYER_FILE, mode='a', header=False, index=False)
         st.success("✅ Job Submitted!")
-
