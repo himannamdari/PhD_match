@@ -9,7 +9,7 @@ GRAD_FILE = "data/graduates.csv"
 EMPLOYER_FILE = "data/employers.csv"
 MATCH_FILE = "data/matches.csv"
 
-# Create initial match file if not exists
+# Create match sample file if missing
 if not os.path.exists(MATCH_FILE):
     sample_data = pd.DataFrame({
         "Grad_Skills": ["machine learning", "quantum physics", "data science"],
@@ -18,15 +18,23 @@ if not os.path.exists(MATCH_FILE):
     })
     sample_data.to_csv(MATCH_FILE, index=False)
 
+st.set_page_config(page_title="PhDMatch", layout="centered")
 st.title("🎓 PhDMatch")
 
 user_type = st.radio("I am a...", ["PhD Graduate", "Employer"])
 
+# ----------------------- PhD GRADUATE FORM ------------------------
 if user_type == "PhD Graduate":
+    st.subheader("👨‍🎓 Graduate Profile Submission")
+
     name = st.text_input("Full Name")
     skills = st.text_input("Skills (comma-separated)")
-    research = st.text_input("Research Area")
-    role = st.text_input("Preferred Roles")
+    research = st.selectbox("Research Area", [
+        "Machine Learning", "AI & NLP", "Physics", "Chemistry", "Biology", "Cybersecurity", "Robotics", "Other"
+    ])
+    role = st.selectbox("Preferred Roles", [
+        "Research Scientist", "Data Scientist", "Machine Learning Engineer", "Postdoc", "Software Developer", "Other"
+    ])
 
     if st.button("📤 Submit Profile"):
         new_row = pd.DataFrame([[name, skills, research, role]],
@@ -35,18 +43,25 @@ if user_type == "PhD Graduate":
             new_row.to_csv(GRAD_FILE, index=False)
         else:
             new_row.to_csv(GRAD_FILE, mode='a', header=False, index=False)
-        st.success("Submitted!")
+        st.success("✅ Profile submitted!")
 
-        # Reload employer data
-        if os.path.exists(EMPLOYER_FILE):
+        # Predict Matches
+        if os.path.exists(EMPLOYER_FILE) and os.path.getsize(EMPLOYER_FILE) > 0:
             employers = pd.read_csv(EMPLOYER_FILE)
             matches = predict_matches(skills, employers)
-            st.write("Top Matching Jobs:")
+            st.write("🔍 Top Matching Jobs:")
             st.dataframe(matches)
+        else:
+            st.warning("⚠️ No employer data available yet.")
 
+# ------------------------- EMPLOYER FORM --------------------------
 elif user_type == "Employer":
+    st.subheader("🏢 Employer Job Posting")
+
     company = st.text_input("Company Name")
-    job = st.text_input("Job Title")
+    job = st.selectbox("Job Title", [
+        "AI Researcher", "Software Engineer", "R&D Scientist", "Data Analyst", "Postdoctoral Fellow", "Other"
+    ])
     desired = st.text_input("Desired Skills (comma-separated)")
 
     if st.button("📤 Submit Job"):
@@ -56,4 +71,5 @@ elif user_type == "Employer":
             new_row.to_csv(EMPLOYER_FILE, index=False)
         else:
             new_row.to_csv(EMPLOYER_FILE, mode='a', header=False, index=False)
-        st.success("Job Submitted!")
+        st.success("✅ Job Submitted!")
+
