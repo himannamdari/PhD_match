@@ -5,6 +5,7 @@ from utils import retrain_model, predict_matches
 
 # File paths
 os.makedirs("data", exist_ok=True)
+os.makedirs("model", exist_ok=True)
 GRAD_FILE = "data/graduates.csv"
 EMPLOYER_FILE = "data/employers.csv"
 MATCH_FILE = "data/matches.csv"
@@ -13,11 +14,18 @@ MODEL_FILE = "model/match_model.pkl"
 # Initialize match dataset if not exists or is empty
 if not os.path.exists(MATCH_FILE) or os.path.getsize(MATCH_FILE) == 0:
     sample_data = pd.DataFrame({
-        "Grad_Skills": ["machine learning", "quantum physics", "data science"],
-        "Job_Skills": ["deep learning, python", "theoretical physics", "python, statistics"],
-        "Match": [1, 1, 0]
+        "Grad_Skills": ["machine learning", "quantum physics", "data science", "python", "nlp"] * 200,
+        "Job_Skills": ["deep learning, python", "theoretical physics", "python, statistics", "tensorflow, keras", "nlp, pytorch"] * 200,
+        "Match": [1, 1, 0, 1, 1] * 200
     })
     sample_data.to_csv(MATCH_FILE, index=False)
+
+# Trigger training of model if it doesn't exist
+if not os.path.exists(MODEL_FILE):
+    try:
+        retrain_model()
+    except Exception as e:
+        st.error(f"🔴 Model training failed: {e}")
 
 # App setup
 st.set_page_config(page_title="PhDMatch", layout="centered")
