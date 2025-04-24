@@ -45,6 +45,11 @@ job_titles = [
     "Data Analyst", "Postdoctoral Fellow", "Systems Engineer", "Other"
 ]
 
+locations = ["Remote", "Hybrid", "On-site", "Flexible"]
+shifts = ["Full-time", "Part-time", "Internship", "Contract"]
+sponsorship = ["Yes", "No", "Maybe"]
+relocation = ["Yes", "No", "Offered"]
+
 # Graduate form
 if user_type == "PhD Graduate":
     st.subheader("👨‍🎓 Graduate Profile Submission")
@@ -82,13 +87,21 @@ elif user_type == "Employer":
     st.subheader("🏢 Employer Job Posting")
 
     company = st.text_input("Company Name")
-    job = st.selectbox("Job Title", job_titles)
+    jobs_selected = st.multiselect("Job Titles", job_titles)
+    job = ", ".join(jobs_selected)
     desired_selected = st.multiselect("Desired Skills", skills_list)
     desired = ", ".join(desired_selected)
+    location_selected = st.multiselect("Job Location Options", locations)
+    location = ", ".join(location_selected)
+    shift_selected = st.multiselect("Work Shifts", shifts)
+    shift = ", ".join(shift_selected)
+    salary = st.text_input("Salary Range (e.g., $60k–$90k)")
+    sponsor = st.multiselect("Visa Sponsorship Available?", sponsorship)
+    relocation_support = st.multiselect("Relocation Support", relocation)
 
     if st.button("📤 Submit Job"):
-        new_row = pd.DataFrame([[company, job, desired]],
-                               columns=["Company", "Job Title", "Skills"])
+        new_row = pd.DataFrame([[company, job, desired, location, shift, salary, ", ".join(sponsor), ", ".join(relocation_support)]],
+                               columns=["Company", "Job Title", "Skills", "Location", "Shift", "Salary", "Sponsorship", "Relocation"])
         if not os.path.exists(EMPLOYER_FILE):
             new_row.to_csv(EMPLOYER_FILE, index=False)
         else:
