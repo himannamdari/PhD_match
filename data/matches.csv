@@ -1,1 +1,1001 @@
-
+Grad_Skills,Job_Skills,Match
+deep learning,"tensorflow, keras",0
+machine learning,"python, statistics",0
+quantum physics,"ai, ml",0
+python,"sql, data mining",0
+python,"ai, ml",0
+nlp,"tensorflow, keras",0
+sql,"python, statistics",0
+python,"bioinformatics, R",0
+deep learning,"sql, data mining",0
+cv,"bioinformatics, R",0
+tensorflow,"sql, data mining",0
+python,"deep learning, python",1
+cv,"deep learning, python",0
+nlp,theoretical physics,0
+sql,"c++, robotics",0
+cv,"deep learning, python",0
+quantum physics,"sql, data mining",0
+cv,theoretical physics,0
+deep learning,"nlp, pytorch",0
+tensorflow,"deep learning, python",0
+tensorflow,"python, statistics",0
+deep learning,"sql, data mining",0
+tensorflow,theoretical physics,0
+quantum physics,theoretical physics,0
+python,"sql, data mining",0
+bioinformatics,"image processing, cv",0
+sql,"c++, robotics",0
+bioinformatics,"sql, data mining",0
+sql,"python, statistics",0
+data science,"python, statistics",0
+machine learning,"bioinformatics, R",0
+data science,"tensorflow, keras",0
+python,"deep learning, python",1
+data science,"bioinformatics, R",0
+sql,"ai, ml",0
+sql,"tensorflow, keras",0
+sql,"deep learning, python",0
+deep learning,"bioinformatics, R",0
+bioinformatics,"image processing, cv",0
+machine learning,"image processing, cv",0
+tensorflow,"nlp, pytorch",0
+tensorflow,"deep learning, python",0
+deep learning,"c++, robotics",0
+quantum physics,"tensorflow, keras",0
+python,"python, statistics",1
+nlp,"sql, data mining",0
+python,"python, statistics",1
+deep learning,"tensorflow, keras",0
+deep learning,"nlp, pytorch",0
+quantum physics,"image processing, cv",0
+tensorflow,"bioinformatics, R",0
+sql,"c++, robotics",0
+nlp,"ai, ml",0
+sql,"deep learning, python",0
+data science,"deep learning, python",0
+quantum physics,"c++, robotics",0
+nlp,"sql, data mining",0
+quantum physics,"ai, ml",0
+data science,"python, statistics",0
+cv,theoretical physics,0
+cv,"python, statistics",0
+bioinformatics,"python, statistics",0
+data science,"python, statistics",0
+sql,"python, statistics",0
+bioinformatics,"image processing, cv",0
+python,"sql, data mining",0
+nlp,"ai, ml",0
+data science,"c++, robotics",0
+python,"bioinformatics, R",0
+cv,"image processing, cv",1
+data science,"python, statistics",0
+data science,"tensorflow, keras",0
+cv,"image processing, cv",1
+quantum physics,"ai, ml",0
+cv,"bioinformatics, R",0
+machine learning,"c++, robotics",0
+deep learning,theoretical physics,0
+machine learning,theoretical physics,0
+tensorflow,"nlp, pytorch",0
+machine learning,"deep learning, python",0
+bioinformatics,"image processing, cv",0
+deep learning,"nlp, pytorch",0
+deep learning,"image processing, cv",0
+deep learning,"tensorflow, keras",0
+nlp,"deep learning, python",0
+sql,"ai, ml",0
+machine learning,theoretical physics,0
+sql,theoretical physics,0
+tensorflow,"tensorflow, keras",1
+quantum physics,"sql, data mining",0
+bioinformatics,"tensorflow, keras",0
+data science,"tensorflow, keras",0
+machine learning,"ai, ml",0
+quantum physics,"ai, ml",0
+quantum physics,"ai, ml",0
+data science,"python, statistics",0
+sql,"bioinformatics, R",0
+machine learning,"sql, data mining",0
+bioinformatics,"sql, data mining",0
+nlp,"tensorflow, keras",0
+cv,"c++, robotics",0
+data science,"c++, robotics",0
+python,"ai, ml",0
+cv,"image processing, cv",1
+bioinformatics,"nlp, pytorch",0
+tensorflow,"sql, data mining",0
+quantum physics,theoretical physics,0
+quantum physics,"ai, ml",0
+deep learning,"nlp, pytorch",0
+deep learning,"bioinformatics, R",0
+data science,"ai, ml",0
+nlp,"deep learning, python",0
+cv,"python, statistics",0
+python,"sql, data mining",0
+quantum physics,"c++, robotics",0
+quantum physics,"sql, data mining",0
+python,"python, statistics",1
+tensorflow,"deep learning, python",0
+deep learning,"sql, data mining",0
+cv,theoretical physics,0
+cv,theoretical physics,0
+nlp,"nlp, pytorch",1
+deep learning,"nlp, pytorch",0
+nlp,"sql, data mining",0
+nlp,"python, statistics",0
+data science,theoretical physics,0
+data science,"python, statistics",0
+bioinformatics,"tensorflow, keras",0
+machine learning,"nlp, pytorch",0
+deep learning,"deep learning, python",1
+tensorflow,"ai, ml",0
+deep learning,"nlp, pytorch",0
+machine learning,"c++, robotics",0
+deep learning,"nlp, pytorch",0
+bioinformatics,"tensorflow, keras",0
+tensorflow,"nlp, pytorch",0
+cv,"c++, robotics",0
+bioinformatics,"python, statistics",0
+tensorflow,"deep learning, python",0
+quantum physics,"c++, robotics",0
+sql,"c++, robotics",0
+cv,"image processing, cv",1
+deep learning,"ai, ml",0
+deep learning,"bioinformatics, R",0
+deep learning,"c++, robotics",0
+quantum physics,"bioinformatics, R",0
+tensorflow,"bioinformatics, R",0
+machine learning,theoretical physics,0
+data science,"deep learning, python",0
+sql,"sql, data mining",1
+python,"python, statistics",1
+tensorflow,"bioinformatics, R",0
+cv,"sql, data mining",0
+bioinformatics,"image processing, cv",0
+tensorflow,"python, statistics",0
+nlp,"bioinformatics, R",0
+tensorflow,"sql, data mining",0
+python,"c++, robotics",0
+quantum physics,"nlp, pytorch",0
+data science,"bioinformatics, R",0
+python,"deep learning, python",1
+data science,"c++, robotics",0
+sql,"image processing, cv",0
+sql,"c++, robotics",0
+tensorflow,"image processing, cv",0
+cv,"nlp, pytorch",0
+quantum physics,"tensorflow, keras",0
+machine learning,"tensorflow, keras",0
+python,"image processing, cv",0
+nlp,"nlp, pytorch",1
+sql,"bioinformatics, R",0
+quantum physics,"python, statistics",0
+nlp,"nlp, pytorch",1
+quantum physics,"sql, data mining",0
+cv,"sql, data mining",0
+deep learning,"bioinformatics, R",0
+data science,"bioinformatics, R",0
+data science,"ai, ml",0
+quantum physics,"python, statistics",0
+nlp,"image processing, cv",0
+tensorflow,"tensorflow, keras",1
+bioinformatics,"nlp, pytorch",0
+quantum physics,theoretical physics,0
+sql,theoretical physics,0
+bioinformatics,"c++, robotics",0
+quantum physics,"c++, robotics",0
+python,"sql, data mining",0
+machine learning,"deep learning, python",0
+data science,theoretical physics,0
+bioinformatics,"deep learning, python",0
+machine learning,"bioinformatics, R",0
+bioinformatics,"deep learning, python",0
+bioinformatics,"sql, data mining",0
+machine learning,"deep learning, python",0
+data science,"python, statistics",0
+data science,"nlp, pytorch",0
+python,"ai, ml",0
+machine learning,theoretical physics,0
+deep learning,"sql, data mining",0
+data science,"tensorflow, keras",0
+data science,"python, statistics",0
+deep learning,theoretical physics,0
+machine learning,"ai, ml",0
+python,"c++, robotics",0
+python,"image processing, cv",0
+machine learning,"tensorflow, keras",0
+cv,"tensorflow, keras",0
+tensorflow,"c++, robotics",0
+machine learning,"bioinformatics, R",0
+bioinformatics,"deep learning, python",0
+quantum physics,"image processing, cv",0
+data science,"tensorflow, keras",0
+sql,"tensorflow, keras",0
+sql,theoretical physics,0
+tensorflow,"ai, ml",0
+data science,"ai, ml",0
+quantum physics,"deep learning, python",0
+nlp,"nlp, pytorch",1
+bioinformatics,"deep learning, python",0
+data science,"bioinformatics, R",0
+machine learning,"deep learning, python",0
+data science,"c++, robotics",0
+deep learning,"ai, ml",0
+tensorflow,"c++, robotics",0
+nlp,"tensorflow, keras",0
+quantum physics,"nlp, pytorch",0
+nlp,"tensorflow, keras",0
+cv,theoretical physics,0
+python,"c++, robotics",0
+nlp,"image processing, cv",0
+data science,"image processing, cv",0
+machine learning,"image processing, cv",0
+tensorflow,"tensorflow, keras",1
+quantum physics,"sql, data mining",0
+cv,"ai, ml",0
+machine learning,theoretical physics,0
+quantum physics,"deep learning, python",0
+deep learning,"bioinformatics, R",0
+sql,"nlp, pytorch",0
+nlp,"deep learning, python",0
+bioinformatics,theoretical physics,0
+tensorflow,"ai, ml",0
+deep learning,"python, statistics",0
+quantum physics,"deep learning, python",0
+nlp,"bioinformatics, R",0
+quantum physics,"bioinformatics, R",0
+nlp,"deep learning, python",0
+quantum physics,"c++, robotics",0
+machine learning,"nlp, pytorch",0
+quantum physics,"sql, data mining",0
+cv,"python, statistics",0
+machine learning,"c++, robotics",0
+quantum physics,"nlp, pytorch",0
+cv,"ai, ml",0
+deep learning,"c++, robotics",0
+python,"python, statistics",1
+cv,"nlp, pytorch",0
+machine learning,"c++, robotics",0
+deep learning,"nlp, pytorch",0
+quantum physics,"nlp, pytorch",0
+nlp,"tensorflow, keras",0
+cv,"sql, data mining",0
+machine learning,"bioinformatics, R",0
+bioinformatics,"python, statistics",0
+cv,"image processing, cv",1
+deep learning,"python, statistics",0
+nlp,"nlp, pytorch",1
+data science,"python, statistics",0
+bioinformatics,"tensorflow, keras",0
+data science,"c++, robotics",0
+sql,"bioinformatics, R",0
+quantum physics,"c++, robotics",0
+cv,"tensorflow, keras",0
+sql,"ai, ml",0
+python,"ai, ml",0
+deep learning,theoretical physics,0
+tensorflow,"c++, robotics",0
+python,"deep learning, python",1
+data science,"python, statistics",0
+nlp,"nlp, pytorch",1
+cv,"deep learning, python",0
+machine learning,theoretical physics,0
+cv,"tensorflow, keras",0
+deep learning,"sql, data mining",0
+sql,"deep learning, python",0
+data science,"ai, ml",0
+sql,"python, statistics",0
+nlp,"c++, robotics",0
+data science,"deep learning, python",0
+tensorflow,"python, statistics",0
+quantum physics,"image processing, cv",0
+tensorflow,"python, statistics",0
+deep learning,"c++, robotics",0
+deep learning,"deep learning, python",1
+cv,"nlp, pytorch",0
+python,"tensorflow, keras",0
+sql,"image processing, cv",0
+tensorflow,"bioinformatics, R",0
+cv,theoretical physics,0
+data science,"python, statistics",0
+quantum physics,"sql, data mining",0
+tensorflow,theoretical physics,0
+sql,"sql, data mining",1
+sql,"image processing, cv",0
+bioinformatics,"image processing, cv",0
+tensorflow,"image processing, cv",0
+bioinformatics,"ai, ml",0
+data science,"ai, ml",0
+nlp,"tensorflow, keras",0
+deep learning,"ai, ml",0
+bioinformatics,"tensorflow, keras",0
+deep learning,"ai, ml",0
+python,theoretical physics,0
+machine learning,"python, statistics",0
+nlp,"tensorflow, keras",0
+tensorflow,"bioinformatics, R",0
+python,"deep learning, python",1
+tensorflow,"python, statistics",0
+bioinformatics,"image processing, cv",0
+sql,"sql, data mining",1
+quantum physics,"bioinformatics, R",0
+quantum physics,"sql, data mining",0
+machine learning,"tensorflow, keras",0
+nlp,"image processing, cv",0
+python,"image processing, cv",0
+cv,"python, statistics",0
+deep learning,"python, statistics",0
+data science,"sql, data mining",1
+bioinformatics,"sql, data mining",0
+quantum physics,"bioinformatics, R",0
+machine learning,"sql, data mining",0
+tensorflow,"image processing, cv",0
+machine learning,"image processing, cv",0
+deep learning,"image processing, cv",0
+data science,"deep learning, python",0
+tensorflow,"sql, data mining",0
+deep learning,"bioinformatics, R",0
+deep learning,"c++, robotics",0
+python,"sql, data mining",0
+cv,"bioinformatics, R",0
+machine learning,"tensorflow, keras",0
+quantum physics,"tensorflow, keras",0
+data science,"c++, robotics",0
+tensorflow,"image processing, cv",0
+python,"c++, robotics",0
+bioinformatics,theoretical physics,0
+bioinformatics,"ai, ml",0
+cv,"tensorflow, keras",0
+machine learning,"image processing, cv",0
+quantum physics,"nlp, pytorch",0
+cv,"ai, ml",0
+nlp,"deep learning, python",0
+quantum physics,"python, statistics",0
+data science,"sql, data mining",1
+cv,"python, statistics",0
+bioinformatics,"tensorflow, keras",0
+quantum physics,theoretical physics,0
+sql,"sql, data mining",1
+bioinformatics,"tensorflow, keras",0
+bioinformatics,"image processing, cv",0
+deep learning,"bioinformatics, R",0
+data science,"tensorflow, keras",0
+tensorflow,"image processing, cv",0
+python,"image processing, cv",0
+machine learning,"deep learning, python",0
+python,"c++, robotics",0
+deep learning,"deep learning, python",1
+tensorflow,"ai, ml",0
+data science,"image processing, cv",0
+data science,"ai, ml",0
+sql,"python, statistics",0
+cv,"c++, robotics",0
+data science,"image processing, cv",0
+sql,theoretical physics,0
+tensorflow,"deep learning, python",0
+machine learning,"deep learning, python",0
+machine learning,"image processing, cv",0
+tensorflow,theoretical physics,0
+deep learning,"tensorflow, keras",0
+sql,"c++, robotics",0
+bioinformatics,theoretical physics,0
+python,"bioinformatics, R",0
+tensorflow,"image processing, cv",0
+machine learning,"ai, ml",0
+bioinformatics,"deep learning, python",0
+machine learning,"ai, ml",0
+python,"bioinformatics, R",0
+quantum physics,"python, statistics",0
+tensorflow,theoretical physics,0
+cv,"bioinformatics, R",0
+cv,"python, statistics",0
+cv,theoretical physics,0
+bioinformatics,"image processing, cv",0
+data science,"tensorflow, keras",0
+bioinformatics,theoretical physics,0
+nlp,"sql, data mining",0
+python,"c++, robotics",0
+python,theoretical physics,0
+deep learning,"tensorflow, keras",0
+sql,"sql, data mining",1
+sql,"ai, ml",0
+cv,"ai, ml",0
+sql,"sql, data mining",1
+deep learning,"ai, ml",0
+python,"python, statistics",1
+nlp,"sql, data mining",0
+tensorflow,"deep learning, python",0
+sql,"python, statistics",0
+python,"bioinformatics, R",0
+machine learning,"bioinformatics, R",0
+cv,"sql, data mining",0
+nlp,"ai, ml",0
+machine learning,"image processing, cv",0
+deep learning,"ai, ml",0
+cv,"c++, robotics",0
+machine learning,theoretical physics,0
+nlp,"nlp, pytorch",1
+quantum physics,"tensorflow, keras",0
+nlp,"bioinformatics, R",0
+bioinformatics,"deep learning, python",0
+deep learning,theoretical physics,0
+deep learning,"bioinformatics, R",0
+sql,"c++, robotics",0
+tensorflow,"image processing, cv",0
+nlp,"bioinformatics, R",0
+sql,"python, statistics",0
+python,theoretical physics,0
+bioinformatics,"ai, ml",0
+machine learning,"sql, data mining",0
+tensorflow,"sql, data mining",0
+quantum physics,"bioinformatics, R",0
+nlp,"python, statistics",0
+nlp,theoretical physics,0
+nlp,"c++, robotics",0
+bioinformatics,"ai, ml",0
+cv,"c++, robotics",0
+tensorflow,"ai, ml",0
+python,"image processing, cv",0
+machine learning,"tensorflow, keras",0
+nlp,"ai, ml",0
+cv,"image processing, cv",1
+machine learning,"deep learning, python",0
+python,"bioinformatics, R",0
+tensorflow,"bioinformatics, R",0
+bioinformatics,"bioinformatics, R",1
+deep learning,theoretical physics,0
+machine learning,"ai, ml",0
+tensorflow,"python, statistics",0
+data science,"tensorflow, keras",0
+quantum physics,"nlp, pytorch",0
+data science,"bioinformatics, R",0
+cv,"deep learning, python",0
+python,"python, statistics",1
+data science,"image processing, cv",0
+tensorflow,"python, statistics",0
+nlp,"tensorflow, keras",0
+tensorflow,"ai, ml",0
+quantum physics,"nlp, pytorch",0
+sql,"tensorflow, keras",0
+quantum physics,"bioinformatics, R",0
+nlp,"image processing, cv",0
+data science,"image processing, cv",0
+bioinformatics,"sql, data mining",0
+sql,"sql, data mining",1
+tensorflow,"sql, data mining",0
+bioinformatics,theoretical physics,0
+data science,theoretical physics,0
+python,"nlp, pytorch",0
+python,"tensorflow, keras",0
+sql,"nlp, pytorch",0
+tensorflow,"bioinformatics, R",0
+data science,"deep learning, python",0
+quantum physics,"bioinformatics, R",0
+sql,"sql, data mining",1
+python,"python, statistics",1
+tensorflow,theoretical physics,0
+cv,"sql, data mining",0
+data science,"python, statistics",0
+deep learning,"sql, data mining",0
+deep learning,"ai, ml",0
+nlp,"tensorflow, keras",0
+cv,"tensorflow, keras",0
+nlp,"nlp, pytorch",1
+deep learning,"python, statistics",0
+sql,"image processing, cv",0
+cv,"c++, robotics",0
+quantum physics,"tensorflow, keras",0
+nlp,theoretical physics,0
+machine learning,"python, statistics",0
+python,"tensorflow, keras",0
+deep learning,"deep learning, python",1
+tensorflow,"bioinformatics, R",0
+cv,"image processing, cv",1
+python,"bioinformatics, R",0
+python,theoretical physics,0
+nlp,"deep learning, python",0
+sql,"ai, ml",0
+python,theoretical physics,0
+machine learning,"python, statistics",0
+nlp,"python, statistics",0
+sql,theoretical physics,0
+data science,theoretical physics,0
+machine learning,"python, statistics",0
+sql,"nlp, pytorch",0
+tensorflow,"sql, data mining",0
+bioinformatics,"deep learning, python",0
+bioinformatics,"image processing, cv",0
+cv,"image processing, cv",1
+sql,"ai, ml",0
+bioinformatics,"python, statistics",0
+quantum physics,"python, statistics",0
+data science,"c++, robotics",0
+python,"ai, ml",0
+python,"c++, robotics",0
+machine learning,"bioinformatics, R",0
+nlp,theoretical physics,0
+cv,"c++, robotics",0
+nlp,theoretical physics,0
+nlp,"tensorflow, keras",0
+deep learning,"image processing, cv",0
+bioinformatics,"nlp, pytorch",0
+nlp,"bioinformatics, R",0
+machine learning,"ai, ml",0
+bioinformatics,"tensorflow, keras",0
+bioinformatics,"deep learning, python",0
+quantum physics,"python, statistics",0
+bioinformatics,"sql, data mining",0
+data science,theoretical physics,0
+data science,"image processing, cv",0
+sql,"ai, ml",0
+machine learning,theoretical physics,0
+sql,"nlp, pytorch",0
+cv,"nlp, pytorch",0
+python,"tensorflow, keras",0
+nlp,theoretical physics,0
+cv,"nlp, pytorch",0
+data science,"deep learning, python",0
+python,"bioinformatics, R",0
+tensorflow,"image processing, cv",0
+data science,"python, statistics",0
+cv,"tensorflow, keras",0
+bioinformatics,"sql, data mining",0
+nlp,"deep learning, python",0
+cv,"sql, data mining",0
+cv,"tensorflow, keras",0
+machine learning,"tensorflow, keras",0
+deep learning,"bioinformatics, R",0
+nlp,"nlp, pytorch",1
+deep learning,"image processing, cv",0
+data science,"image processing, cv",0
+data science,theoretical physics,0
+deep learning,"nlp, pytorch",0
+cv,theoretical physics,0
+deep learning,theoretical physics,0
+quantum physics,"sql, data mining",0
+cv,"bioinformatics, R",0
+quantum physics,"nlp, pytorch",0
+cv,"python, statistics",0
+sql,"python, statistics",0
+nlp,"bioinformatics, R",0
+cv,theoretical physics,0
+tensorflow,theoretical physics,0
+sql,"image processing, cv",0
+bioinformatics,"tensorflow, keras",0
+python,"c++, robotics",0
+bioinformatics,"image processing, cv",0
+nlp,"sql, data mining",0
+quantum physics,"nlp, pytorch",0
+data science,"python, statistics",0
+nlp,"ai, ml",0
+quantum physics,"sql, data mining",0
+cv,"tensorflow, keras",0
+quantum physics,"bioinformatics, R",0
+machine learning,"c++, robotics",0
+quantum physics,"image processing, cv",0
+sql,"c++, robotics",0
+sql,"c++, robotics",0
+sql,"python, statistics",0
+data science,"python, statistics",0
+sql,"tensorflow, keras",0
+nlp,"deep learning, python",0
+bioinformatics,"tensorflow, keras",0
+tensorflow,"python, statistics",0
+python,"ai, ml",0
+deep learning,"deep learning, python",1
+machine learning,"c++, robotics",0
+data science,"bioinformatics, R",0
+data science,"tensorflow, keras",0
+python,"deep learning, python",1
+cv,"c++, robotics",0
+deep learning,"tensorflow, keras",0
+nlp,"deep learning, python",0
+nlp,"deep learning, python",0
+tensorflow,"image processing, cv",0
+nlp,"tensorflow, keras",0
+machine learning,"deep learning, python",0
+nlp,"python, statistics",0
+cv,"python, statistics",0
+bioinformatics,"tensorflow, keras",0
+data science,theoretical physics,0
+data science,"c++, robotics",0
+tensorflow,"bioinformatics, R",0
+python,"image processing, cv",0
+deep learning,theoretical physics,0
+tensorflow,"bioinformatics, R",0
+cv,"c++, robotics",0
+deep learning,"bioinformatics, R",0
+sql,"c++, robotics",0
+cv,"tensorflow, keras",0
+cv,"python, statistics",0
+data science,"image processing, cv",0
+data science,"tensorflow, keras",0
+cv,"bioinformatics, R",0
+data science,"c++, robotics",0
+data science,"bioinformatics, R",0
+machine learning,theoretical physics,0
+data science,"deep learning, python",0
+cv,"image processing, cv",1
+machine learning,"tensorflow, keras",0
+python,"tensorflow, keras",0
+python,"c++, robotics",0
+cv,"nlp, pytorch",0
+cv,"nlp, pytorch",0
+quantum physics,"c++, robotics",0
+nlp,"python, statistics",0
+tensorflow,"nlp, pytorch",0
+sql,"sql, data mining",1
+data science,theoretical physics,0
+bioinformatics,"nlp, pytorch",0
+cv,"sql, data mining",0
+quantum physics,"nlp, pytorch",0
+bioinformatics,"python, statistics",0
+python,"bioinformatics, R",0
+tensorflow,"bioinformatics, R",0
+cv,"c++, robotics",0
+cv,"deep learning, python",0
+tensorflow,"deep learning, python",0
+python,"python, statistics",1
+data science,"deep learning, python",0
+bioinformatics,"image processing, cv",0
+sql,"c++, robotics",0
+bioinformatics,"python, statistics",0
+data science,"deep learning, python",0
+machine learning,"nlp, pytorch",0
+data science,"python, statistics",0
+nlp,"tensorflow, keras",0
+deep learning,"deep learning, python",1
+tensorflow,"sql, data mining",0
+python,"nlp, pytorch",0
+sql,"python, statistics",0
+tensorflow,"deep learning, python",0
+machine learning,"tensorflow, keras",0
+quantum physics,"tensorflow, keras",0
+deep learning,theoretical physics,0
+data science,"tensorflow, keras",0
+machine learning,"deep learning, python",0
+quantum physics,"tensorflow, keras",0
+bioinformatics,"bioinformatics, R",1
+cv,"deep learning, python",0
+machine learning,"deep learning, python",0
+data science,"deep learning, python",0
+cv,"nlp, pytorch",0
+tensorflow,"bioinformatics, R",0
+nlp,"ai, ml",0
+tensorflow,"deep learning, python",0
+bioinformatics,"tensorflow, keras",0
+deep learning,"tensorflow, keras",0
+tensorflow,"nlp, pytorch",0
+tensorflow,"tensorflow, keras",1
+bioinformatics,"python, statistics",0
+python,"deep learning, python",1
+data science,"sql, data mining",1
+machine learning,"tensorflow, keras",0
+quantum physics,"ai, ml",0
+data science,"tensorflow, keras",0
+quantum physics,"ai, ml",0
+python,"sql, data mining",0
+quantum physics,"c++, robotics",0
+nlp,"tensorflow, keras",0
+nlp,"c++, robotics",0
+quantum physics,"c++, robotics",0
+python,"image processing, cv",0
+sql,"c++, robotics",0
+bioinformatics,theoretical physics,0
+data science,theoretical physics,0
+nlp,"c++, robotics",0
+sql,theoretical physics,0
+python,"ai, ml",0
+tensorflow,"python, statistics",0
+machine learning,"image processing, cv",0
+cv,"python, statistics",0
+sql,"sql, data mining",1
+python,"python, statistics",1
+tensorflow,theoretical physics,0
+quantum physics,"c++, robotics",0
+sql,"image processing, cv",0
+tensorflow,"image processing, cv",0
+deep learning,"sql, data mining",0
+deep learning,"python, statistics",0
+python,"deep learning, python",1
+quantum physics,"deep learning, python",0
+nlp,"deep learning, python",0
+python,"tensorflow, keras",0
+cv,"image processing, cv",1
+data science,"image processing, cv",0
+python,"image processing, cv",0
+sql,"python, statistics",0
+bioinformatics,"tensorflow, keras",0
+nlp,"sql, data mining",0
+machine learning,"nlp, pytorch",0
+tensorflow,"nlp, pytorch",0
+bioinformatics,"image processing, cv",0
+nlp,theoretical physics,0
+data science,"sql, data mining",1
+bioinformatics,"ai, ml",0
+sql,"deep learning, python",0
+quantum physics,"python, statistics",0
+quantum physics,"nlp, pytorch",0
+machine learning,"nlp, pytorch",0
+data science,"deep learning, python",0
+nlp,"deep learning, python",0
+python,"python, statistics",1
+machine learning,"python, statistics",0
+cv,"sql, data mining",0
+cv,"nlp, pytorch",0
+sql,"nlp, pytorch",0
+machine learning,theoretical physics,0
+cv,"deep learning, python",0
+machine learning,"ai, ml",0
+tensorflow,"c++, robotics",0
+cv,"deep learning, python",0
+nlp,"python, statistics",0
+tensorflow,"bioinformatics, R",0
+nlp,"nlp, pytorch",1
+tensorflow,"deep learning, python",0
+python,"tensorflow, keras",0
+quantum physics,"image processing, cv",0
+data science,"ai, ml",0
+data science,"deep learning, python",0
+quantum physics,"python, statistics",0
+nlp,theoretical physics,0
+tensorflow,theoretical physics,0
+machine learning,"deep learning, python",0
+sql,"nlp, pytorch",0
+nlp,"nlp, pytorch",1
+machine learning,"nlp, pytorch",0
+cv,"image processing, cv",1
+python,"tensorflow, keras",0
+deep learning,"deep learning, python",1
+nlp,"image processing, cv",0
+sql,"nlp, pytorch",0
+bioinformatics,"deep learning, python",0
+python,"python, statistics",1
+cv,"sql, data mining",0
+bioinformatics,"deep learning, python",0
+tensorflow,"bioinformatics, R",0
+cv,"bioinformatics, R",0
+machine learning,theoretical physics,0
+deep learning,"nlp, pytorch",0
+cv,"nlp, pytorch",0
+nlp,"nlp, pytorch",1
+quantum physics,"ai, ml",0
+nlp,"deep learning, python",0
+data science,"nlp, pytorch",0
+deep learning,"image processing, cv",0
+nlp,theoretical physics,0
+sql,theoretical physics,0
+python,"image processing, cv",0
+machine learning,"c++, robotics",0
+nlp,"tensorflow, keras",0
+tensorflow,"sql, data mining",0
+machine learning,theoretical physics,0
+python,"tensorflow, keras",0
+sql,"bioinformatics, R",0
+python,theoretical physics,0
+data science,"tensorflow, keras",0
+data science,"sql, data mining",1
+nlp,"sql, data mining",0
+deep learning,"ai, ml",0
+deep learning,"bioinformatics, R",0
+sql,"bioinformatics, R",0
+deep learning,theoretical physics,0
+python,"sql, data mining",0
+deep learning,"tensorflow, keras",0
+sql,"python, statistics",0
+nlp,"sql, data mining",0
+bioinformatics,"ai, ml",0
+deep learning,"image processing, cv",0
+nlp,"ai, ml",0
+machine learning,"nlp, pytorch",0
+python,"nlp, pytorch",0
+machine learning,"tensorflow, keras",0
+tensorflow,"ai, ml",0
+sql,"tensorflow, keras",0
+machine learning,"bioinformatics, R",0
+tensorflow,"deep learning, python",0
+quantum physics,"sql, data mining",0
+sql,"sql, data mining",1
+bioinformatics,"tensorflow, keras",0
+nlp,theoretical physics,0
+quantum physics,"ai, ml",0
+bioinformatics,"tensorflow, keras",0
+sql,"python, statistics",0
+cv,"tensorflow, keras",0
+sql,"bioinformatics, R",0
+deep learning,"bioinformatics, R",0
+python,"python, statistics",1
+machine learning,"tensorflow, keras",0
+machine learning,"deep learning, python",0
+cv,"tensorflow, keras",0
+cv,theoretical physics,0
+nlp,"deep learning, python",0
+bioinformatics,"python, statistics",0
+sql,"tensorflow, keras",0
+python,"sql, data mining",0
+tensorflow,"c++, robotics",0
+sql,"tensorflow, keras",0
+cv,"sql, data mining",0
+nlp,"c++, robotics",0
+deep learning,"image processing, cv",0
+deep learning,"deep learning, python",1
+cv,"image processing, cv",1
+deep learning,"ai, ml",0
+machine learning,theoretical physics,0
+data science,"c++, robotics",0
+tensorflow,"c++, robotics",0
+deep learning,"deep learning, python",1
+machine learning,"image processing, cv",0
+tensorflow,"sql, data mining",0
+deep learning,"nlp, pytorch",0
+cv,"python, statistics",0
+python,"c++, robotics",0
+quantum physics,"ai, ml",0
+tensorflow,"image processing, cv",0
+cv,"c++, robotics",0
+bioinformatics,theoretical physics,0
+python,"deep learning, python",1
+quantum physics,"nlp, pytorch",0
+data science,"deep learning, python",0
+quantum physics,"bioinformatics, R",0
+sql,"c++, robotics",0
+machine learning,"c++, robotics",0
+tensorflow,"sql, data mining",0
+sql,"deep learning, python",0
+bioinformatics,"deep learning, python",0
+bioinformatics,theoretical physics,0
+machine learning,"python, statistics",0
+machine learning,"nlp, pytorch",0
+quantum physics,"python, statistics",0
+bioinformatics,"bioinformatics, R",1
+sql,theoretical physics,0
+nlp,theoretical physics,0
+deep learning,theoretical physics,0
+quantum physics,"image processing, cv",0
+machine learning,"c++, robotics",0
+deep learning,"image processing, cv",0
+deep learning,"deep learning, python",1
+data science,theoretical physics,0
+sql,"image processing, cv",0
+machine learning,"c++, robotics",0
+nlp,theoretical physics,0
+bioinformatics,"tensorflow, keras",0
+cv,"image processing, cv",1
+sql,"nlp, pytorch",0
+cv,"bioinformatics, R",0
+machine learning,"bioinformatics, R",0
+cv,"sql, data mining",0
+data science,"tensorflow, keras",0
+deep learning,"sql, data mining",0
+cv,"deep learning, python",0
+nlp,"c++, robotics",0
+machine learning,"ai, ml",0
+python,"sql, data mining",0
+tensorflow,"tensorflow, keras",1
+tensorflow,"deep learning, python",0
+sql,"deep learning, python",0
+python,"deep learning, python",1
+bioinformatics,"ai, ml",0
+deep learning,"python, statistics",0
+python,"c++, robotics",0
+tensorflow,"c++, robotics",0
+quantum physics,"deep learning, python",0
+sql,"sql, data mining",1
+data science,"c++, robotics",0
+cv,"nlp, pytorch",0
+sql,"nlp, pytorch",0
+quantum physics,"deep learning, python",0
+deep learning,"bioinformatics, R",0
+sql,"bioinformatics, R",0
+cv,"tensorflow, keras",0
+bioinformatics,"image processing, cv",0
+python,"ai, ml",0
+nlp,"deep learning, python",0
+nlp,"image processing, cv",0
+sql,"nlp, pytorch",0
+bioinformatics,"deep learning, python",0
+bioinformatics,"deep learning, python",0
+deep learning,"ai, ml",0
+tensorflow,"python, statistics",0
+sql,"ai, ml",0
+nlp,"c++, robotics",0
+python,"deep learning, python",1
+bioinformatics,"deep learning, python",0
+data science,"python, statistics",0
+data science,"image processing, cv",0
+data science,"bioinformatics, R",0
+bioinformatics,"ai, ml",0
+deep learning,"c++, robotics",0
+data science,"python, statistics",0
+machine learning,"tensorflow, keras",0
+tensorflow,"image processing, cv",0
+quantum physics,"tensorflow, keras",0
+bioinformatics,"sql, data mining",0
+machine learning,"image processing, cv",0
+nlp,theoretical physics,0
+python,"c++, robotics",0
+bioinformatics,"bioinformatics, R",1
+tensorflow,theoretical physics,0
+deep learning,"python, statistics",0
+bioinformatics,"bioinformatics, R",1
+machine learning,"sql, data mining",0
+python,"image processing, cv",0
+machine learning,"ai, ml",0
+sql,"image processing, cv",0
+nlp,"image processing, cv",0
+nlp,"bioinformatics, R",0
+python,"c++, robotics",0
+bioinformatics,"nlp, pytorch",0
+nlp,"c++, robotics",0
+cv,"nlp, pytorch",0
+python,"sql, data mining",0
+nlp,"sql, data mining",0
+deep learning,"tensorflow, keras",0
+quantum physics,"bioinformatics, R",0
+tensorflow,"deep learning, python",0
+bioinformatics,"python, statistics",0
+deep learning,"image processing, cv",0
+sql,"bioinformatics, R",0
+nlp,"image processing, cv",0
+cv,"bioinformatics, R",0
+tensorflow,"c++, robotics",0
+machine learning,"nlp, pytorch",0
+tensorflow,"ai, ml",0
+tensorflow,"deep learning, python",0
+nlp,"ai, ml",0
+deep learning,"nlp, pytorch",0
+cv,"c++, robotics",0
+deep learning,"tensorflow, keras",0
+nlp,"nlp, pytorch",1
+sql,"bioinformatics, R",0
+deep learning,"deep learning, python",1
+deep learning,"sql, data mining",0
+python,"bioinformatics, R",0
+nlp,theoretical physics,0
+python,"c++, robotics",0
+sql,"deep learning, python",0
+quantum physics,"c++, robotics",0
+machine learning,"python, statistics",0
+machine learning,"c++, robotics",0
+machine learning,"bioinformatics, R",0
+nlp,"bioinformatics, R",0
+tensorflow,"nlp, pytorch",0
+cv,"bioinformatics, R",0
+sql,"nlp, pytorch",0
+deep learning,theoretical physics,0
+machine learning,"image processing, cv",0
+tensorflow,"ai, ml",0
+deep learning,"sql, data mining",0
+bioinformatics,"image processing, cv",0
+tensorflow,theoretical physics,0
+deep learning,"nlp, pytorch",0
+data science,"bioinformatics, R",0
+quantum physics,"deep learning, python",0
+python,"image processing, cv",0
+sql,"python, statistics",0
+tensorflow,"image processing, cv",0
+data science,theoretical physics,0
+nlp,"python, statistics",0
+python,"c++, robotics",0
+python,"nlp, pytorch",0
+cv,"python, statistics",0
+cv,"c++, robotics",0
+python,"bioinformatics, R",0
+python,"sql, data mining",0
+quantum physics,"tensorflow, keras",0
+machine learning,"ai, ml",0
+bioinformatics,"c++, robotics",0
+deep learning,"sql, data mining",0
+machine learning,"c++, robotics",0
+bioinformatics,"ai, ml",0
+python,"image processing, cv",0
+data science,"sql, data mining",1
+bioinformatics,"sql, data mining",0
+quantum physics,"sql, data mining",0
+python,"c++, robotics",0
+deep learning,"deep learning, python",1
+data science,"sql, data mining",1
+deep learning,"bioinformatics, R",0
+sql,"sql, data mining",1
+bioinformatics,"ai, ml",0
