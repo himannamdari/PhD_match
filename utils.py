@@ -1,13 +1,22 @@
 import os
-import joblib
 import pandas as pd
+import joblib
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 
 MODEL_FILE = "model/match_model.pkl"
+MATCH_FILE = "data/matches.csv"
 
 def retrain_model():
-    df = pd.read_csv("data/matches.csv")
+    if not os.path.exists(MATCH_FILE) or os.path.getsize(MATCH_FILE) == 0:
+        print("🚫 No match data available to train the model.")
+        return
+
+    df = pd.read_csv(MATCH_FILE)
+    if df.empty or "Grad_Skills" not in df.columns or "Job_Skills" not in df.columns or "Match" not in df.columns:
+        print("🚫 Match file is invalid or missing required columns.")
+        return
+
     X = df["Grad_Skills"] + " " + df["Job_Skills"]
     y = df["Match"]
 
@@ -23,12 +32,10 @@ def retrain_model():
 def predict_matches(grad_skills, employer_df):
     if not os.path.exists(MODEL_FILE):
         retrain_model()
-    
-    try:
-        model, vectorizer = joblib.load(MODEL_FILE)
-    except Exception:
-        retrain_model()
-        model, vectorizer = joblib.load(MODEL_FILE)
+        if not os.path.exists(MODEL_FILE):
+            raise Exception("Model not trained. No match data available.")
+
+    model, vectorizer = joblib.load(MODEL_FILE)
 
     results = []
     for _, row in employer_df.iterrows():
