@@ -10,8 +10,8 @@ EMPLOYER_FILE = "data/employers.csv"
 MATCH_FILE = "data/matches.csv"
 MODEL_FILE = "model/match_model.pkl"
 
-# Initialize match dataset if not exists
-if not os.path.exists(MATCH_FILE):
+# Initialize match dataset if not exists or is empty
+if not os.path.exists(MATCH_FILE) or os.path.getsize(MATCH_FILE) == 0:
     sample_data = pd.DataFrame({
         "Grad_Skills": ["machine learning", "quantum physics", "data science"],
         "Job_Skills": ["deep learning, python", "theoretical physics", "python, statistics"],
@@ -52,8 +52,10 @@ if user_type == "PhD Graduate":
     name = st.text_input("Full Name")
     skills_selected = st.multiselect("Select Your Skills", skills_list)
     skills = ", ".join(skills_selected)
-    research = st.selectbox("Research Area", research_areas)
-    role = st.selectbox("Preferred Roles", preferred_roles)
+    research_selected = st.multiselect("Research Areas", research_areas)
+    research = ", ".join(research_selected)
+    roles_selected = st.multiselect("Preferred Roles", preferred_roles)
+    role = ", ".join(roles_selected)
 
     if st.button("📤 Submit Profile"):
         new_row = pd.DataFrame([[name, skills, research, role]],
@@ -66,9 +68,12 @@ if user_type == "PhD Graduate":
 
         if os.path.exists(EMPLOYER_FILE) and os.path.getsize(EMPLOYER_FILE) > 0:
             employers = pd.read_csv(EMPLOYER_FILE)
-            matches = predict_matches(skills, employers)
-            st.write("🔍 Top Matching Jobs:")
-            st.dataframe(matches)
+            try:
+                matches = predict_matches(skills, employers)
+                st.write("🔍 Top Matching Jobs:")
+                st.dataframe(matches)
+            except Exception as e:
+                st.error(f"🔴 Failed to predict matches: {str(e)}")
         else:
             st.warning("⚠️ No employer data available yet.")
 
